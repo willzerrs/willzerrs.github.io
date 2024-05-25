@@ -3,7 +3,7 @@ layout: about-page
 title: About
 permalink: /about/
 ---
-# Hello. I'm William Leung.
+<!-- # Hello. I'm William Leung. -->
 
 I'm a Cal State LA computer science graduate passionate about developing practical and exciting applications. My journey into computer science began in high school with creating simple games in Scratch and Python. The joy of using my creativity and sharing my creations with friends sparked my passion for computer science.
 

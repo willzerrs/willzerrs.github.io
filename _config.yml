@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Willzerr's Portfolio"
+title: "WL"
 email: williamleung114@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  willzerr's portfolio website WIP
+  William's portfolio website WIP
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://willzerrs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -32,6 +32,11 @@ github_username:  willzerrs
 theme: minima
 plugins:
   - jekyll-feed
+
+header_pages:
+  - projects.markdown
+  - resume.markdown
+  - about.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
