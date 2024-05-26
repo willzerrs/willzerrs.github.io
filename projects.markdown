@@ -22,7 +22,6 @@ These are the ones I'm most proud of.
                 <li>InfluxDB</li>
             </ul>
         </div>
-        <a href="https://github.com/your-username/project1" target="_blank">View on GitHub</a>
     </div>
 </div>
 
@@ -31,7 +30,7 @@ These are the ones I'm most proud of.
 <div class="projects-grid">
     <div class="project-card">
         <img src="/assets/images/mangadex.png" alt="MangaDex Logo">
-        <h3>ManagDex React-native App</h3>
+        <h3>MangaDex React-native App</h3>
         <p>A manga reader built with React-native on Expo</p>
         <div class="tech-used">
             <h4>Technologies Used:</h4>
@@ -43,4 +42,5 @@ These are the ones I'm most proud of.
         </div>
         <a href="https://github.com/willzerrs/Mangadex-App" target="_blank">View on GitHub</a>
     </div>
+    
 </div>
