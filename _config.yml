@@ -21,7 +21,7 @@
 title: "WL"
 email: williamleung114@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  William's portfolio website WIP
+  William's Portfolio Website
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://willzerrs.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -35,8 +35,8 @@ plugins:
 
 header_pages:
   - projects.markdown
-  - resume.markdown
   - about.markdown
+  - resume.markdown
 
 # Exclude from processing.
 # The following items will not be processed, by default.
