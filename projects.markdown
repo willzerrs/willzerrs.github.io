@@ -14,8 +14,10 @@ These are the ones I'm most proud of.
         <div class="project-image">
             <img src="/assets/images/aerospace_logo.jpg" alt="Aerospace Corp. Logo">
         </div>
-        <h3>Automating Satellite Analysis with Containers</h3>
-        <p>Automated analysis by leveraging container technology and an existing satellite orbit analysis tool developed at Aerospace that is normally used as a GUI</p>
+        <div class="project-info">
+            <h3>Automating Satellite Analysis with Containers</h3>
+            <p>Automated analysis by leveraging container technology and an existing satellite orbit analysis tool developed at Aerospace that is normally used as a GUI</p>
+        </div>
         <div class="tech-used">
             <h4>Technologies Used:</h4>
             <p>
@@ -35,8 +37,10 @@ These are the ones I'm most proud of.
         <div class="project-image">
             <img src="/assets/images/mangadex.png" alt="MangaDex Logo">
         </div>
-        <h3>MangaDex React-native App</h3>
-        <p>A manga reader built with React-native on Expo</p>
+        <div class="project-info">
+            <h3>MangaDex React-native App</h3>
+            <p>A manga reader built with React-native on Expo</p>
+        </div>
         <div class="tech-used">
             <h4>Technologies Used:</h4>
             <p>
@@ -45,14 +49,16 @@ These are the ones I'm most proud of.
                 <img src="https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=#D04A37" alt="expo">
             </p>
         </div>
-        <a href="https://github.com/willzerrs/Mangadex-App" target="_blank">View on GitHub</a>
+        <a class="github-button" href="https://github.com/willzerrs/Mangadex-App" target="_blank">View on GitHub</a>
     </div>
     <div class="project-card">
         <div class="project-image">
             <img src="/assets/images/jikan_logo.png" alt="Jikan API Logo">
         </div>
-        <h3>Anime Title Search API</h3>
-        <p>An Express.js server that retrieves anime information from MyAnimeList via JikanApi and stores search results into MongoDB.</p>
+        <div class="project-info">
+            <h3>Anime Title Search API</h3>
+            <p>An Express.js server that retrieves anime information from MyAnimeList via JikanApi and stores search results into MongoDB.</p>
+        </div>
         <div class="tech-used">
             <h4>Technologies Used:</h4>
             <p>
@@ -61,6 +67,7 @@ These are the ones I'm most proud of.
                 <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white" alt="mongo-db">
             </p>
         </div>
-        <a href="https://github.com/willzerrs/Anime-Search-API" target="_blank">View on GitHub</a>
+        <a class="github-button" href="https://github.com/willzerrs/Anime-Search-API" target="_blank">View on GitHub</a>
+        <!-- <button class="github-button" role="button" href="https://github.com/willzerrs/Anime-Search-API">View on GitHub</button> -->
     </div>
 </div>

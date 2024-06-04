@@ -20,38 +20,57 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    min-height: 400px;
+    padding: 10px;
 }
 
-.project-card .project-image img {
+/* Project image container */
+.project-image {
+    padding: 10px;
+    /* border-bottom: 1px solid #e1e1e1; */
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.project-image img {
     width: 100%;
     height: auto;
+    /* border: 1px solid #e1e1e1;
+    border-radius: 4px; */
 }
 
-.project-card .project-info {
+.project-info {
     padding: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin-bottom: 5px;
 }
 
-.project-card .project-info h3 {
+.project-info h3 {
     margin: 10px 0;
     font-size: 1.25em;
 }
 
-.project-card .project-info p {
+.project-info p {
     font-size: 1em;
     color: #666;
 }
 
-.project-card .tech-used {
+.tech-used {
     padding: 10px 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin-bottom: 5px;
 }
 
-.project-card .tech-used h4 {
+.tech-used h4 {
     margin-bottom: 10px;
     font-size: 1.1em;
     color: #333;
 }
 
-.project-card .tech-used p {
+.tech-used p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -72,4 +91,55 @@ img.javascript {
 
 img.docker {
     content: url(https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+}
+
+/* CSS */
+.github-button {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #1755A8;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.github-button:focus {
+  color: #171e29;
+}
+
+.github-button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.github-button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .github-button {
+    min-width: 170px;
+  }
 }
