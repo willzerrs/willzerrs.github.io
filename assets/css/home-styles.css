@@ -1,10 +1,11 @@
-header {
+header, footer {
+    background: rgba(255, 255, 255, 0.92);
     width: 100%;
     margin: 0;
     padding: 0;
 }
-
-.background-container {
+/* Change this into a container for a welcome message/box */
+/* .background-container {
     background-image: url('../images/la_city.jpeg');
     background-size: cover;
     background-attachment: fixed;
@@ -15,9 +16,14 @@ header {
     display: flex;
     text-align: center;
     max-width: none;
-}
+} */
 
 body {
+    background-image: url('../images/la_city.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -25,10 +31,13 @@ body {
 }
 
 .content-wrapper {
+    background: rgba(255, 255, 255, 0.92);
+    border-radius: 10px;
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0;
+    margin-bottom: 10px;
+    padding: 15px;
 }
 
 .page-content {
@@ -37,9 +46,154 @@ body {
 
 .wrapper {
     /* max-width: none; */
-    padding: 0;
+    padding: 10px;
 }
 
-.site-header {
+/* .site-header {
     padding: 0;
+} */
+
+/* assets/css/styles.css */
+
+/* Projects grid container */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Individual project card */
+.project-card {
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 400px;
+    padding: 10px;
+}
+
+/* Project image container */
+.project-image {
+    padding: 10px;
+    /* border-bottom: 1px solid #e1e1e1; */
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.project-image img {
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #e1e1e1;
+    border-radius: 4px; */
+}
+
+.project-info {
+    padding: 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.project-info h3 {
+    margin: 10px 0;
+    font-size: 1.25em;
+}
+
+.project-info p {
+    font-size: 1em;
+    color: #666;
+}
+
+.tech-used {
+    padding: 10px 15px;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.tech-used h4 {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.tech-used p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+img.python {
+    content: url(https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+}
+
+img.javascript {
+    content: url(https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+}
+
+img.docker {
+    content: url(https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+}
+
+.github-button {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #1755A8;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.github-button:focus {
+  color: #171e29;
+}
+
+.github-button:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+.github-button:active {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+}
+
+@media (min-width: 768px) {
+  .github-button {
+    min-width: 170px;
+  }
 }
