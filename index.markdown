@@ -12,12 +12,16 @@ layout: home
 
 <div class="content-wrapper" id="about">
     <h1> About </h1>
-    <p>
+    <div>
+        <img src="/assets/images/william_leung.JPG" alt="William Leung Pic" style="width: 28%; height: auto; border-radius: 200px; float: right; margin: 10px">
+    </div>
+    <p style="text-align: justify;">
         I'm a Cal State LA computer science graduate passionate about developing practical and exciting applications. My journey into computer science began in high school with creating simple games in Scratch and Python. The joy of using my creativity and sharing my creations with friends sparked my passion for computer science.<br>
         <br>
-        At Cal State LA, I explored various areas of software development, including databases, web development, and data science. I am proficient in Python, Java, and JavaScript, with hands-on experience using frameworks like Django, React-Native, PyTorch, and Bootstrap. My technical skills are complemented by a solid understanding of object-oriented programming, data structures, and algorithms.<br>
+        At Cal State LA, I explored various areas of software development, including databases, web development, and data science. I am proficient in Python, Java, and JavaScript, with hands-on experience using frameworks like Django, Flask, React-Native, and Express.js. My technical skills are complemented by a solid understanding of object-oriented programming, data structures, and algorithms.<br>
         <br>
         For my senior design project, I had the opportunity to work with The Aerospace Corporation. There, I gained industry experience with Docker containers, InfluxDB, and Python. I managed InfluxDB through Docker, efficiently formatted and processed data, and automated an internal satellite orbit analysis tool, significantly reducing analysis time. I also had the chance to brief aerospace customers on our project's outcomes.<br>
+        <br>
         Beyond coding, I enjoy running and reading novels. I aspire to become a well-rounded developer, continuously leveraging my experience to create practical and helpful applications that can make a difference.
     </p>
 </div>
@@ -93,7 +97,7 @@ layout: home
     </div>
     <div class="project-card">
         <div class="project-image">
-            <img src="/assets/images/WL.png" alt="WL Logo">
+            <img src="/assets/images/WL.png" alt="WL Logo" style="border-radius: 5px">
         </div>
         <div class="project-info">
             <h3>Personal Portfolio Website</h3>
